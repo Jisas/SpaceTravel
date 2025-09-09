@@ -1,0 +1,92 @@
+newmtl backCover
+d 1
+Kd 0.10980392 0.12156863 0.13333334
+
+newmtl frontBlasters
+d 1
+Kd 0.019607844 0.1882353 0.26666668
+
+newmtl cockpit1
+d 1
+Kd 0.90980393 0.63529414 0.082352944
+
+newmtl cockpitGlass
+d 1
+Kd 0.015686275 0.015686275 0.015686275
+
+newmtl cockpit2
+d 1
+Kd 0.019607844 0.1882353 0.26666668
+
+newmtl exhaustsInner
+d 1
+Kd 0.96078432 0.96470588 0.96470588
+
+newmtl exhaustsDetaIls
+d 1
+Kd 0.3019608 0.32941177 0.36862746
+
+newmtl exhaustsDetails
+d 1
+Kd 0.96078432 0.96470588 0.96470588
+
+newmtl airIntakes
+d 1
+Kd 0.96078432 0.96470588 0.96470588
+
+newmtl winglets2
+d 1
+Kd 0.019607844 0.1882353 0.26666668
+
+newmtl winglets1
+d 1
+Kd 0.90980393 0.63529414 0.082352944
+
+newmtl rocketExhaust
+d 1
+Kd 0.3019608 0.32941177 0.36862746
+
+newmtl rocketBooster
+d 1
+Kd 0 0 0
+
+newmtl roofVents
+d 1
+Kd 0.3019608 0.32941177 0.36862746
+
+newmtl wingletsStruts
+d 1
+Kd 0.3019608 0.32941177 0.36862746
+
+newmtl wingletLights
+d 1
+Kd 0 0 0
+
+newmtl wingletStruts
+d 1
+Kd 0.3019608 0.32941177 0.36862746
+
+newmtl winglet2
+d 1
+Kd 0.019607844 0.1882353 0.26666668
+
+newmtl winglet1
+d 1
+Kd 0.90980393 0.63529414 0.082352944
+
+newmtl wingletsLights
+d 1
+Kd 0 0 0
+
+newmtl lightsGlass
+d 0.995
+Kd 0.72941178 0.72941178 0.72941178
+
+newmtl lightsBulbs
+d 1
+Kd 0 0 0
+
+newmtl lightsBase
+d 1
+Kd 0.3019608 0.32941177 0.36862746
+
