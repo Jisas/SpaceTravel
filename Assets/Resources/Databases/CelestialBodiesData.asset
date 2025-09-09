@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6140c713ba63964ab1aac9681f6c373, type: 3}
+  m_Name: CelestialBodiesData
+  m_EditorClassIdentifier: 
+  spaceObjects:
+  - name: StopOrb
+    objID: 0
+    objAmount: 0
+    objType: 0
+  - name: MinOrb
+    objID: 1
+    objAmount: 0
+    objType: 0
+  - name: x2Orb
+    objID: 2
+    objAmount: 0
+    objType: 0
+  - name: BonusCoin
+    objID: 3
+    objAmount: 0
+    objType: 0
+  - name: BonusCooldown
+    objID: 4
+    objAmount: 0
+    objType: 0

@@ -1,0 +1,465 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c1e21be5bc846b42b39120e5c0562ce, type: 3}
+  m_Name: QuestData
+  m_EditorClassIdentifier: 
+  missions:
+  - id: 0
+    isComplete: 0
+    isClaimd: 1
+    spanishDescription: Esquiva 200 asteroides
+    englishDescription: Dodge 200 asteroids
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 200
+      objectID: 5
+  - id: 1
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Obten 30 orbes amarillos
+    englishDescription: Get 30 yellow orbs
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 30
+      objectID: 0
+  - id: 2
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Obten 30 orbes azules
+    englishDescription: Get 30 blue orbs
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 30
+      objectID: 1
+  - id: 3
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Esquiva 30 orbes rojos
+    englishDescription: Dodge 30 red orbs
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 30
+      objectID: 2
+  - id: 4
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Sobrepasa el primer cuerpo celeste
+    englishDescription: Exceeds the first celestial body
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 1
+      objectID: 6
+  - id: 5
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Usa la habilidad de tu nave al menos dos veces
+    englishDescription: Use your ship's ability at least twice
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 2
+      objectID: 8
+  - id: 6
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Pasa a travez de 10 aros multicolor
+    englishDescription: Passes through 10 multicoloured hoops
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 10
+      objectID: 4
+  - id: 7
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Pasa a travez de 10 aros amarillo
+    englishDescription: Passes through 10 yellow hoops
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 10
+      objectID: 3
+  - id: 8
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Obten un record de 1 minuto con 30 segundos
+    englishDescription: Get a record of 1 minute 30 seconds
+    type: 1
+    objectsToBeCollected:
+      amountToCollected: 90
+      objectID: 0
+  - id: 9
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Obten un record de 2 minutos
+    englishDescription: ' Get a record 2 minutes'
+    type: 1
+    objectsToBeCollected:
+      amountToCollected: 120
+      objectID: 0
+  - id: 10
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Esquiva 600 asteroides
+    englishDescription: Dodge 600 asteroids
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 600
+      objectID: 5
+  - id: 11
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Obten 90 orbes amarillos
+    englishDescription: Get 90 yellow orbs
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 90
+      objectID: 0
+  - id: 12
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Obten 90 orbes azules
+    englishDescription: Get 90 blue orbs
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 90
+      objectID: 1
+  - id: 13
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Esquiva 90 orbes rojos
+    englishDescription: 90 Dodge red orbs
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 90
+      objectID: 2
+  - id: 14
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Sobrepasa el segundo y tercer cuerpo celeste
+    englishDescription: Exceeds the second and third celestial body
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 3
+      objectID: 6
+  - id: 15
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Usa la habilidad de tu nave al menos 5 veces
+    englishDescription: Use your ship's ability at least 5 times.
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 5
+      objectID: 8
+  - id: 16
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Pasa a travez de 20 aros multicolor
+    englishDescription: Passes through 20 multicoloured hoops
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 20
+      objectID: 4
+  - id: 17
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Pasa a travez de 20 aros amarillos
+    englishDescription: Passes through 20 yellow hoops
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 20
+      objectID: 3
+  - id: 18
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Obten un record de 2 minutos con 30 segundos
+    englishDescription: Get a record of 2 minutes 30 seconds
+    type: 1
+    objectsToBeCollected:
+      amountToCollected: 150
+      objectID: 0
+  - id: 19
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Obten un record de 3 minutos
+    englishDescription: Get a record of 3 minutes
+    type: 1
+    objectsToBeCollected:
+      amountToCollected: 180
+      objectID: 0
+  - id: 20
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Esquiva 1000 asteroides
+    englishDescription: Dodge 1000 asteroids
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 1000
+      objectID: 5
+  - id: 21
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Obten 270 orbes amarillos
+    englishDescription: Get 270 yellow orbs
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 270
+      objectID: 0
+  - id: 22
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Obten 270 orbes azules
+    englishDescription: Get 270 blue orbs
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 270
+      objectID: 1
+  - id: 23
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Esquiva 270 orbes rojos
+    englishDescription: 270 Dodge red orbs
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 270
+      objectID: 2
+  - id: 24
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Sobrepasa el cuarto y quinto cuerpo celeste
+    englishDescription: Exceeds the fourth and fifth celestial body
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 5
+      objectID: 6
+  - id: 25
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Usa la habilidad de tu nave al menos 10 veces
+    englishDescription: Use your ship's ability at least 10 times
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 10
+      objectID: 8
+  - id: 26
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: 'Pasa a travez de 30 aros multi-color '
+    englishDescription: Passes through 30 multicoloured hoops
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 30
+      objectID: 4
+  - id: 27
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Pasa a travez de 30 aros amarillos
+    englishDescription: Passes through 30 yellow hoops
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 30
+      objectID: 3
+  - id: 28
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Obten un record de 3 minutos con 30 segundos
+    englishDescription: Get a record of 3 minutes and 30 seconds
+    type: 1
+    objectsToBeCollected:
+      amountToCollected: 210
+      objectID: 0
+  - id: 29
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Atraviesa con exito el primer agujero negro
+    englishDescription: Through the first successful black hole
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 1
+      objectID: 7
+  - id: 30
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Pilota una nave con nivel de habilidad 2
+    englishDescription: Pilot a ship with skill level 2
+    type: 2
+    objectsToBeCollected:
+      amountToCollected: 2
+      objectID: 0
+  - id: 31
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Esquiva 2000 asteroides
+    englishDescription: Gather 540 yellDodge 2000 asteroids
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 2000
+      objectID: 5
+  - id: 32
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Obten 540 orbes amarillos
+    englishDescription: Gather 540 yellow orbs
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 540
+      objectID: 0
+  - id: 33
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Obten 540 orbes azules
+    englishDescription: Get 540 blue orbs
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 540
+      objectID: 1
+  - id: 34
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Esquiva 540 orbes rojos
+    englishDescription: Dodge 540 Red Orbs
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 540
+      objectID: 2
+  - id: 35
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: sobrepasa el sexto cuerpo celeste
+    englishDescription: surpasses the sixth celestial body
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 6
+      objectID: 6
+  - id: 36
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Usa la habilidad de tu nave al menos 15 veces
+    englishDescription: Use your ship's ability at least 15 times
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 15
+      objectID: 8
+  - id: 37
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Pasa a travez de 40 aros muilti-color
+    englishDescription: Passes through 40 multicoloured hoops
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 40
+      objectID: 4
+  - id: 38
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Pasa a travez de 40 aros amarillos
+    englishDescription: Passes through 40 yellow hoops
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 40
+      objectID: 3
+  - id: 39
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Obten un record de 5 minutos
+    englishDescription: Get a record 5 minutes
+    type: 1
+    objectsToBeCollected:
+      amountToCollected: 300
+      objectID: 0
+  - id: 40
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Pilota una nave con habilidad de nivel 3
+    englishDescription: Pilot a ship with skill level 3
+    type: 2
+    objectsToBeCollected:
+      amountToCollected: 3
+      objectID: 0
+  - id: 41
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Esquiva 4000 asteroides
+    englishDescription: 4000 Dodge asteroids
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 4000
+      objectID: 5
+  - id: 42
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Obten 1080 orbes amarillos
+    englishDescription: Score 1080 yellow orbs
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 1080
+      objectID: 0
+  - id: 43
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Obten 1080 orbes azules
+    englishDescription: Get 1080 Blue Orbs
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 1080
+      objectID: 1
+  - id: 44
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Esquiva 1080 orbes rojos
+    englishDescription: Dodge 1080 Red Orbs
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 1080
+      objectID: 2
+  - id: 45
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Sobrepasa el septimo y octavo cuerpo celeste
+    englishDescription: Exceeds the seventh and eighth celestial body
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 8
+      objectID: 6
+  - id: 46
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Pilota una nave con habilidad de nivel 4
+    englishDescription: Pilot a ship with skill level 4
+    type: 2
+    objectsToBeCollected:
+      amountToCollected: 4
+      objectID: 0
+  - id: 47
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Usa la habilidad de tu nave al menos 25 veces
+    englishDescription: Use your ship's ability at least 25 times
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 25
+      objectID: 8
+  - id: 48
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Pilota una nave con habilidad de nivel 5
+    englishDescription: Pilot a ship with skill level 5
+    type: 2
+    objectsToBeCollected:
+      amountToCollected: 5
+      objectID: 0
+  - id: 49
+    isComplete: 0
+    isClaimd: 0
+    spanishDescription: Atraviesa con exito un segundo agujero negro
+    englishDescription: Successfully through a second black hole
+    type: 0
+    objectsToBeCollected:
+      amountToCollected: 2
+      objectID: 7

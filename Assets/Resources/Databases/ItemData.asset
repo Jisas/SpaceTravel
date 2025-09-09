@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 836f971463cb05145bf8290228b4ef39, type: 3}
+  m_Name: ItemData
+  m_EditorClassIdentifier: 
+  items:
+  - id: 0
+    spanishName: Pirueta
+    englishName: Pirouette
+    spanishDescrption: Este objeto te permite cambiar el nivel de habilidad de una
+      nave a nivel 1 (consulta el manual del explorador interestelar para mas informacion
+      sobre las habilidades y las estadisticas).
+    englishDescrption: This item allows you to change the skill level of a ship to
+      level 1 (see the interstellar explorer manual for more information on skills
+      and stats).
+    isStackable: 1
+    itemType: 1
+    spawnRate: 23
+    sellCost: 100
+    scrollPos: {x: 0, y: 0}
+    itemImage: {fileID: -488721925442295091, guid: e32a2b3636bd8014297268d1b067ff89,
+      type: 3}
+  - id: 1
+    spanishName: Incremento de Dureza
+    englishName: Increased Hardness
+    spanishDescrption: "Este objeto te permite a\xF1adir +1 de dureza a una nave
+      (consulta el manual del explorador interestelar para mas informacion sobre
+      habilidades y estadisticas)"
+    englishDescrption: This item allows you to add +1 hardness to a ship (see the
+      interstellar explorer manual for more information on skills and stats)
+    isStackable: 1
+    itemType: 2
+    spawnRate: 17
+    sellCost: 150
+    scrollPos: {x: 0, y: 0}
+    itemImage: {fileID: 8033092973025764044, guid: e32a2b3636bd8014297268d1b067ff89,
+      type: 3}
+  - id: 2
+    spanishName: Escudo de Fuerza
+    englishName: Force Shield
+    spanishDescrption: Este objeto te permite cambiar el nivel de habilidad de una
+      nave al nivel 3 (consulta el manual del explorador interestelar para obtener
+      mas informacion sobre las habilidades y las estadisticas)
+    englishDescrption: This item allows you to change the skill level of a ship to
+      level 3 (see the interstellar explorer manual for more information on skills
+      and stats)
+    isStackable: 1
+    itemType: 1
+    spawnRate: 15
+    sellCost: 200
+    scrollPos: {x: 0, y: 0}
+    itemImage: {fileID: 1801263428120863714, guid: e32a2b3636bd8014297268d1b067ff89,
+      type: 3}
+  - id: 3
+    spanishName: Ametralladora
+    englishName: Machine Gun
+    spanishDescrption: Este objeto te permite cambiar el nivel de habilidad de una
+      nave al nivel 2 (consulta el manual del explorador interestelar para obtener
+      mas informacion sobre las habilidades y las estadisticas).
+    englishDescrption: This item allows you to change the skill level of a ship to
+      level 2 (see the interstellar explorer manual for more information on skills
+      and stats).
+    isStackable: 1
+    itemType: 1
+    spawnRate: 12
+    sellCost: 250
+    scrollPos: {x: 0, y: 0}
+    itemImage: {fileID: -7573354855677281409, guid: e32a2b3636bd8014297268d1b067ff89,
+      type: 3}
+  - id: 4
+    spanishName: Aumento de Velocidad
+    englishName: Speed Increase
+    spanishDescrption: "Este objeto te permite a\xF1adir +10 de velocidad a una nave
+      (consulta el manual del explorador interestelar para mas informacion sobre
+      habilidades y estadisticas)"
+    englishDescrption: This item allows you to add +10 speed to a ship (see the interstellar
+      explorer manual for more information on skills and stats).
+    isStackable: 1
+    itemType: 0
+    spawnRate: 27
+    sellCost: 400
+    scrollPos: {x: 0, y: 0}
+    itemImage: {fileID: 4337684191699249041, guid: e32a2b3636bd8014297268d1b067ff89,
+      type: 3}
+  - id: 5
+    spanishName: Cupon de descuento
+    englishName: Discount coupon
+    spanishDescrption: Este articulo le permite obtener un 20% de descuento en el
+      precio de cualquier nave
+    englishDescrption: This item allows you to get a 20% discount on the price of
+      any ship
+    isStackable: 1
+    itemType: 2
+    spawnRate: 4
+    sellCost: 1200
+    scrollPos: {x: 0, y: 0}
+    itemImage: {fileID: 4639506938558671751, guid: e32a2b3636bd8014297268d1b067ff89,
+      type: 3}
+  - id: 6
+    spanishName: Gema Rara
+    englishName: Rare Gem
+    spanishDescrption: Esta gema es hermosa y muy rara de obtener, puedes usarla
+      para adquirir naves totalmente unicas que solo se pueden conseguir por este
+      medio
+    englishDescrption: This gem is beautiful and very rare to obtain, you can use
+      it to acquire totally unique ships that can only be obtained by this means
+    isStackable: 1
+    itemType: 0
+    spawnRate: 2
+    sellCost: 5000
+    scrollPos: {x: 0, y: 0}
+    itemImage: {fileID: 21300000, guid: f64664cca53442d45a0ade81bd4fd8ff, type: 3}

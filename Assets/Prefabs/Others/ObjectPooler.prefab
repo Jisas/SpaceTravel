@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9071292330162503950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9071292330162503944}
+  - component: {fileID: 9071292330162503945}
+  m_Layer: 0
+  m_Name: ObjectPooler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9071292330162503944
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9071292330162503950}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 173.4386, y: -808.21716, z: 2879.736}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9071292330162503945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9071292330162503950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2efcd774db322bb4791a69c9db6078de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pools:
+  - tag: AsteroidA
+    prefab: {fileID: 8864313410658495281, guid: 14cb7d522b8208341afaf08951aad691,
+      type: 3}
+    size: 7
+  - tag: AsteroidB
+    prefab: {fileID: 9023263143948519372, guid: 0d1cd19b3d4a47a40958ddbbba4d23d1,
+      type: 3}
+    size: 6
+  - tag: AsteroidC
+    prefab: {fileID: 7751011683388372816, guid: 9dc0459ec98a5ce49bedee84cc544a35,
+      type: 3}
+    size: 4
+  - tag: AsteroidD
+    prefab: {fileID: 2692946625254529909, guid: 79772bc6af55ef345baa3fc71bb22e20,
+      type: 3}
+    size: 4
+  - tag: StopOrb
+    prefab: {fileID: 2710591171649684293, guid: 1759d0e224e8a7f42b0ba7be60a65e7a,
+      type: 3}
+    size: 6
+  - tag: X2Orb
+    prefab: {fileID: 5213043784248053035, guid: 25b1fb23c5f0d3a47b180d3b43a846d5,
+      type: 3}
+    size: 5
+  - tag: MinOrb
+    prefab: {fileID: 1074720201147135219, guid: 223f516eba4cf4b4bac93f6ae3db7f4e,
+      type: 3}
+    size: 3
