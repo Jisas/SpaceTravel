@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Explotion
+  - Tittle
+  - Target1
+  - Target2
+  - HyperScaleOrb
+  - MiniaturizeOrb
+  - StopScaleOrb
+  - TargetNova
+  - CelestialBodies
+  - BonusC
+  - BonusI
+  - Shield
+  - TargetCoinText
+  - TargetTimeText
+  - ScaleX2Orb
+  - Laser
+  - SkillInUse
+  - LaserTarget
+  - BulletTarget
+  - FirePoint
+  - Projectile
+  - Destello
+  - ForceShield1
+  - ForceShield2
+  - Shield1
+  - Shield2
+  - ShipTarget
+  - CelestialBodiesMissions
+  - Dodge
+  - Ship
+  - BlackHole
+  - FxTemporaire
+  - CenterToStarts
+  - Joystick
+  - SelectLanguage
+  - Gem
+  - Scrap
+  - ImgMuestra
+  - TxtMuestra
+  - BtnUseItem
+  - BtnSellItem
+  - SellConfirmationPanel
+  - FireMeteorite
+  - ShipImgForUseItem
+  - Slot
+  - DangerSignal
+  - DangerPanel
+  - RandomSpawn
+  - Planet
+  - Nebula
+  - OP
+  - ConfirmationPanel
+  - ButtonClaimd
+  - TextQuest
+  - ImgPanelQuest
+  - ShockWave
+  - GPGM
+  - LaserPoint
+  - Skill
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Planet
+  - Ships
+  - Modifier
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: player
+    uniqueID: 3054074377
+    locked: 0
+  - name: UI
+    uniqueID: 2294360019
+    locked: 0

@@ -1,0 +1,11 @@
+lastUpgrade=01014
+proj.pluginVersion=0.10.14
+proj.AppId=778099938479
+and.BundleId=com.Jisase.SpaceTravel
+proj.classDir=Assets
+proj.ConstantsClassName=GPGSIds
+and.ResourceData=%3c%3fxml+version%3d%221.0%22+encoding%3d%22utf-8%22%3f%3e%0d%0a%3c%21--Google+Play+game+services+IDs.+Save+this+file+as+res%2fvalues%2fgames-ids.xml+in+your+project.--%3e%0d%0a%3cresources%3e%0d%0a++%3c%21--app_id--%3e%0d%0a++%3cstring+name%3d%22app_id%22+translatable%3d%22false%22%3e778099938479%3c%2fstring%3e%0d%0a++%3c%21--package_name--%3e%0d%0a++%3cstring+name%3d%22package_name%22+translatable%3d%22false%22%3ecom.Jisase.SpaceTravel%3c%2fstring%3e%0d%0a++%3c%21--leaderboard+Time+Record--%3e%0d%0a++%3cstring+name%3d%22leaderboard_time_record%22+translatable%3d%22false%22%3eCgkIr6n70tIWEAIQAQ%3c%2fstring%3e%0d%0a%3c%2fresources%3e
+and.ClientId=778099938479-jhd738i66fs63j6f201ft4e1ofet2pfa.apps.googleusercontent.com
+android.SetupDone=true
+App.NearbdServiceId=com.Jisase.SpaceTravel
+android.NearbySetupDone=true
