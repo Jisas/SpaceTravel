@@ -34,6 +34,12 @@
 # Visual Studio cache directory
 .vs/
 
+# Visual Studio Code cache directory
+.vscode/
+
+# Plastic cache directory
+.plastic/
+
 # Gradle cache directory
 .gradle/
 
@@ -97,3 +103,8 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+
+# My custom folder
+[Kk]eystore/
+[Kk]eystore.meta
